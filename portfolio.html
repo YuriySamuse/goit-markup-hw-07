@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
 <!-- Шапка  -->
@@ -55,121 +55,120 @@
 
     
     <!-- content-page -->
-    <main class="main-portfolio">
+    <main class="portfolio">
         <!-- -------filter-btn (fbtn)----- -->
-            <div class="container">
-                <ul class="fbtn-list list">
-                    <li class="fbtn-item">
-                        <button class="filter-btn" type="button">Все</button>
+            <div class="container filter">
+                <ul class="filter__list list">
+                    <li class="filter__item">
+                        <button class="filter__btn" type="button">Все</button>
                     </li>
                     <li class="fbtn-item">
-                        <button class="filter-btn" type="button">Веб-сайты</button>
+                        <button class="filter__btn" type="button">Веб-сайты</button>
                     </li>
                     <li class="fbtn-item">
-                        <button class="filter-btn" type="button">Приложения</button>
+                        <button class="filter__btn" type="button">Приложения</button>
                     </li>
                     <li class="fbtn-item">
-                        <button class="filter-btn" type="button">Дизайн</button>
+                        <button class="filter__btn" type="button">Дизайн</button>
                     </li>
                     <li class="fbtn-item">
-                        <button class="filter-btn" type="button">Маркетинг</button>
+                        <button class="filter__btn" type="button">Маркетинг</button>
                     </li>
                 </ul>
             </div>
             <!-- --------Cards------ -->
             <div class="container">
-                <ul class="cards-list list">
-                    <li class="card-item">
-                        <a class="card-link link" href="">
-                            <div class="card-top-wrap">
+                <ul class="cards__list list">
+                    <li class="cards__item">
+                        <a class="cards__link link" href="">
+                            <div class="cards__top--wrap">
                                 <img src="./images/portfolio/portfolio-card-1.jpg" alt="Технокряк" width="370">
-                                <p class="card-backgraund-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                                <p class="cards__backgraund--text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                             </div>
                             
-                            <div class="card-item-deskripion">
-                                <h2 class="card-title">Технокряк</h2>
-                                <p class="card-text">Веб-сайт</p>
+                            <div class="cards__item--deskripion">
+                                <h2 class="cards__title">Технокряк</h2>
+                                <p class="cards__text">Веб-сайт</p>
                                 
                             </div>                            
                         </a>
                     </li>
-                    <li class="card-item">
-                        <a class="card-link link" href="">
+                    <li class="cards__item">
+                        <a class="cards__link link" href="">
                             <img src="./images/portfolio/portfolio-card-2.jpg" alt="Постер New Orlean" width="370">
-                            <div class="card-item-deskripion">
-                                <h2 class="card-title">Постер New Orlean vs Golden Star</h2>
-                                <p class="card-text">Дизайн</p>
-                                <p class="card-backgraundtext visually-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores necessitatibus non hic laudantium, incidunt harum, itaque quo tempore doloremque beatae aspernatur expedita, atque quae eius culpa. Magni quaerat repellendus vitae.</p>
+                            <div class="cards__item--deskripion">
+                                <h2 class="cards__title">Постер New Orlean vs Golden Star</h2>
+                                <p class="cards__text">Дизайн</p>
+                                <p class="cards__backgraund--text visually-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores necessitatibus non hic laudantium, incidunt harum, itaque quo tempore doloremque beatae aspernatur expedita, atque quae eius culpa. Magni quaerat repellendus vitae.</p>
                             </div>                            
                         </a>
                     </li>
-                    <li class="card-item">
-                        <a class="card-link link" href="">
+                    <li class="cards__item">
+                        <a class="cards__link link" href="">
                             <img src="./images/portfolio/portfolio-card-3.jpg" alt="Ресторан Seafood" width="370">
-                            <div class="card-item-deskripion">
-                                <h2 class="card-title">Ресторан Seafood</h2>
-                                <p class="card-text">Приложение</p>
-                                <p class="card-backgraundtext visually-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores necessitatibus non hic laudantium, incidunt harum, itaque quo tempore doloremque beatae aspernatur expedita, atque quae eius culpa. Magni quaerat repellendus vitae.</p>
+                            <div class="cards__item--deskripion">
+                                <h2 class="cards__title">Ресторан Seafood</h2>
+                                <p class="cards__text">Приложение</p>
+                                <p class="cards__backgraund--text visually-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores necessitatibus non hic laudantium, incidunt harum, itaque quo tempore doloremque beatae aspernatur expedita, atque quae eius culpa. Magni quaerat repellendus vitae.</p>
                             </div>                            
                         </a>
                     </li>
-                    <li class="card-item">
-                        <a class="card-link link" href="">
+                    <li class="cards__item">
+                        <a class="cards__link link" href="">
                             <img src="./images/portfolio/portfolio-card-4.jpg" alt="Проект Prime" width="370">
-                            <div class="card-item-deskripion">
-                                <h2 class="card-title">Проект Prime</h2>
-                                <p class="card-text">Маркетинг</p>
-                                <p class="card-backgraundtext visually-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores necessitatibus non hic laudantium, incidunt harum, itaque quo tempore doloremque beatae aspernatur expedita, atque quae eius culpa. Magni quaerat repellendus vitae.</p>
+                            <div class="cards__item--deskripion">
+                                <h2 class="cards__title">Проект Prime</h2>
+                                <p class="cards__text">Маркетинг</p>
+                                <p class="cards__backgraundtext visually-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores necessitatibus non hic laudantium, incidunt harum, itaque quo tempore doloremque beatae aspernatur expedita, atque quae eius culpa. Magni quaerat repellendus vitae.</p>
                             </div>                            
                         </a>
                     </li>
-                    <li class="card-item">
-                        <a class="card-link link" href="Проект Boxes">
+                    <li class="cards__item">
+                        <a class="cards__link link" href="Проект Boxes">
                             <img src="./images/portfolio/portfolio-card-5.jpg" alt="" width="370">
-                            <div class="card-item-deskripion">
-                                <h2 class="card-title">Проект Boxes</h2>
-                                <p class="card-text">Приложение</p>
-                                <p class="card-backgraundtext visually-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores necessitatibus non hic laudantium, incidunt harum, itaque quo tempore doloremque beatae aspernatur expedita, atque quae eius culpa. Magni quaerat repellendus vitae.</p>
+                            <div class="cards__item--deskripion">
+                                <h2 class="cards__title">Проект Boxes</h2>
+                                <p class="cards__text">Приложение</p>
+                                <p class="cards__backgraundtext visually-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores necessitatibus non hic laudantium, incidunt harum, itaque quo tempore doloremque beatae aspernatur expedita, atque quae eius culpa. Magni quaerat repellendus vitae.</p>
                             </div>                            
                         </a>
                     </li>
-                    <li class="card-item">
-                        <a class="card-link link" href="">
+                    <li class="cards__item">
+                        <a class="cards__link link" href="">
                             <img src="./images/portfolio/portfolio-card-7.jpg" alt="Inspiration" width="370">
-                            <div class="card-item-deskripion">
-                                <h2 class="card-title">Inspiration has no Borders</h2>
-                                <p class="card-text">Веб-сайт</p>
-                                <p class="card-backgraundtext visually-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores necessitatibus non hic laudantium, incidunt harum, itaque quo tempore doloremque beatae aspernatur expedita, atque quae eius culpa. Magni quaerat repellendus vitae.</p>
+                            <div class="cards__item--deskripion">
+                                <h2 class="cards__title">Inspiration has no Borders</h2>
+                                <p class="cards__backgraund--text visually-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores necessitatibus non hic laudantium, incidunt harum, itaque quo tempore doloremque beatae aspernatur expedita, atque quae eius culpa. Magni quaerat repellendus vitae.</p>
                             </div>                            
                         </a>
                     </li>
-                    <li class="card-item">
-                        <a class="card-link link" href="">
+                    <li class="cards__item">
+                        <a class="cards__link link" href="">
                             <img src="./images/portfolio/portfolio-card-8.jpg" alt="Издание Limited Edition" width="370">
-                            <div class="card-item-deskripion">
-                                <h2 class="card-title">Издание Limited Edition</h2>
-                                <p class="card-text">Дизайн</p>
-                                <p class="card-backgraundtext visually-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores necessitatibus non hic laudantium, incidunt harum, itaque quo tempore doloremque beatae aspernatur expedita, atque quae eius culpa. Magni quaerat repellendus vitae.</p>
+                            <div class="cards__item--deskripion">
+                                <h2 class="cards__title">Издание Limited Edition</h2>
+                                <p class="cards__text">Дизайн</p>
+                                <p class="cards__backgraund--text visually-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores necessitatibus non hic laudantium, incidunt harum, itaque quo tempore doloremque beatae aspernatur expedita, atque quae eius culpa. Magni quaerat repellendus vitae.</p>
                             </div>
                         </a>
                     </li>
-                    <li class="card-item">
-                        <a class="card-link link" href="">
+                    <li class="cards__item">
+                        <a class="cards__link link" href="">
                             <img src="./images/portfolio/portfolio-card-9.jpg" alt="Проект LAB" width="370">
-                            <div class="card-item-deskripion">
-                                <h2 class="card-title">Проект LAB</h2>
-                                <p class="card-text">Маркетинг</p>
-                                <p class="card-backgraundtext visually-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores necessitatibus non hic laudantium, incidunt harum, itaque quo tempore doloremque beatae aspernatur expedita, atque quae eius culpa. Magni quaerat repellendus vitae.</p>
+                            <div class="cards__item--deskripion">
+                                <h2 class="cards__title">Проект LAB</h2>
+                                <p class="cards__text">Маркетинг</p>
+                                <p class="cards__backgraund--text visually-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores necessitatibus non hic laudantium, incidunt harum, itaque quo tempore doloremque beatae aspernatur expedita, atque quae eius culpa. Magni quaerat repellendus vitae.</p>
                             </div>                            
                         </a>
                     </li>
-                    <li class="card-item">
-                        <a class="card-link link" href="">
+                    <li class="cards__item">
+                        <a class="cards__link link" href="">
                             <img src="./images/portfolio/portfolio-card-6.jpg" alt="Growing Business" width="370">
-                            <div class="card-item-deskripion">
-                                <h2 class="card-title">Growing Business</h2>
-                                <p class="card-text">Приложение</p>
-                                <p class="card-backgraundtext visually-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores necessitatibus non hic laudantium, incidunt harum, itaque quo tempore doloremque beatae aspernatur expedita, atque quae eius culpa. Magni quaerat repellendus vitae.</p>
+                            <div class="cards__item-deskripion">
+                                <h2 class="cards__title">Growing Business</h2>
+                                <p class="cards__text">Приложение</p>
+                                <p class="cards__backgraund--text visually-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores necessitatibus non hic laudantium, incidunt harum, itaque quo tempore doloremque beatae aspernatur expedita, atque quae eius culpa. Magni quaerat repellendus vitae.</p>
                             </div>                            
                         </a>
                     </li>
@@ -248,79 +247,5 @@
             </div>
         </div>    
     </footer>
-    <div class="backdrop is-hidden" data-modal>
-        <div class="modal">
-            <button class="modal-close-btn" data-modal-close>
-                <svg class="icon-colse-btn" width="18" height="18">
-                    <use href="./images/icons.svg#icon-close-btn"></use>
-                </svg>
-            </button>
-            <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
-            <form>
-                <div class="modal-field">
-                <label for="user-name" class="modal-label">Имя</label>
-                    <div class="input-wrap">
-                        <input type="text" 
-                            class="modal-input" 
-                            name="user-name" 
-                            title="Ваше имя"
-                        >
-                        <svg class="modal-icon" width="18" height="18">
-                            <use href="./images/icons.svg#icon-name"></use>
-                        </svg>
-                        </div>
-                </div>
-
-                <div class="modal-field">
-                <label for="user-tel" class="modal-label">Телефон</label>
-                    <div class="input-wrap">
-                    <input type="tel" 
-                        class="modal-input" 
-                        name="user-tel" 
-                        title="+380961111111"
-                        id="user-tel"
-                    >
-                    <svg class="modal-icon" width="18" height="18">
-                        <use href="/images/icons.svg#icon-tel"></use>
-                    </svg>
-                    </div>
-                </div>
-                <div class="modal-field">
-                <label for="user-mail" class="modal-label">Почта</label>
-                    <div class="input-wrap">
-                    <input type="email" 
-                        class="modal-input" 
-                        name="user-mail"
-                        id="user-mail"
-                    >
-                    <svg class="modal-icon" width="18" height="18">
-                        <use href="./images/icons.svg#icon-email"></use>
-                    </svg>
-                    </div>
-                </div>
-                <div class="modal-field">
-                <label for="user-text" class="modal-label">Комментарий</label>
-                    <textarea name="user-text" 
-                        id="user-text" 
-                        class="modal-text"
-                        placeholder="Введите текст"></textarea>
-                </div>
-
-                <div class="modal-field">
-                    <input type="checkbox"
-                        name="privacy"
-                        value="true"
-                        class="modal-check visually-hidden"
-                        id="privacy">
-                    <label for="privacy" class="check-text">Соглашаюсь с рассылкой и принимаю  
-                        <a href="" class="modal-check-link">Условия договора</a>
-                    </label>    
-                </div>
-                
-                <button type="submit" class="modal-submit-btn">Отправить</button>
-            </form>
-        </div>
-    </div>
-    <script src="./js/modal.js"></script>
 </body> 
 </html>
