@@ -122,7 +122,7 @@ body {
   fill: coverColor;
 }
 
-.close__btn {
+.btn-close {
   position: absolute;
   right: 8px;
   top: 8px;
@@ -132,14 +132,14 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: transparent;
 }
-.close__btn:hover, .close__btn:focus {
+.btn-close:hover, .btn-close:focus {
   outline: none;
   cursor: pointer;
 }
-.close__btn:hover .close__btn--icon, .close__btn:focus .close__btn--icon {
+.btn-close:hover .btn-close__icon, .btn-close:focus .btn-close__icon {
   fill: var(--accent-color);
 }
-.close__btn--icon {
+.btn-close__icon {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -217,7 +217,7 @@ body {
   fill: var(--accent-color);
   cursor: pointer;
 }
-.modal__input--wrap {
+.modal__input-wrap {
   position: relative;
 }
 
@@ -241,7 +241,7 @@ body {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.check-text {
+.check__text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71px;
@@ -251,7 +251,7 @@ body {
   align-items: center;
   justify-content: start;
 }
-.check-text::before {
+.check__text::before {
   content: "";
   width: 16px;
   height: 15px;
@@ -260,17 +260,18 @@ body {
   margin-right: 8px;
 }
 
-.modal-check:checked + .check-text::before {
+.check__input:focus + .check__text::before, .check__input:hover + .check__text::before {
+  border-color: var(--accent-color);
+}
+.check__input:checked + .check__text::before {
   background-color: var(--accent-color);
   border: none;
   background-image: url(../images/modal/check.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
-.modal-check:focus + .check-text::before, .modal-check:hover + .check-text::before {
-  border-color: var(--accent-color);
-}
-.modal-check-link {
+
+.check__link {
   color: var(--accent-color);
   margin-left: 4px;
 }

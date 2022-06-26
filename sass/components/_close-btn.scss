@@ -1,4 +1,4 @@
-.close__btn {
+.btn-close {
     position: absolute;
     right: 8px;
     top: 8px;
@@ -13,13 +13,11 @@
       cursor: pointer;
     }
     
-    &:hover &--icon,
-    &:focus &--icon{
+    &:hover &__icon,
+    &:focus &__icon{
       fill: var(--accent-color);
     } 
-    
-    
-    &--icon {
+    &__icon {
       position: absolute;
       left: 50%;
       top: 50%;
@@ -27,5 +25,3 @@
       fill: #000000;
     }
   }
-  
-  
